@@ -22,6 +22,7 @@ const validationSchema = yup.object({
         );
       }
     )
+    
     .test(
       "max-words",
       "Input should contain no more than 200 words separated by commas",
