@@ -1,6 +1,6 @@
 # Project Name: CommonStringPrefix Web Application
 Project Overview
-CommonStringPrefix is a web application designed to help users find the longest common prefix from a set of entered strings. Users can enter strings separated by commas, and the app will calculate and display the longest common prefix. This application is perfect for those looking to find commonalities in text or software development tasks.
+CommonStringPrefix is a web application designed to help users find the longest common prefix from a set of entered strings. Users can enter strings separated by commas, and the app will calculate and display the longest common prefix.
 
 # Key Features
 Longest Common Prefix Search: Users can input a list of strings separated by commas to find the longest common prefix.
