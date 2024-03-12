@@ -29,7 +29,7 @@ const validationSchema = yup.object({
     ),
 });
 
-// ฟังก์ชันหาคำนำร่วมที่ยาวที่สุด
+// Function to find the longest common prefix string amongst an array of strings.
 function findLongestCommonPrefix(strs: string[]): string {
   if (strs.length === 0) return "";
   let prefix = strs[0];
@@ -45,13 +45,13 @@ function findLongestCommonPrefix(strs: string[]): string {
 function CommonStringPrefix() {
   const formik = useFormik({
     initialValues: { inputValue: "" },
-    validationSchema: validationSchema, // ใช้ Yup schema สำหรับการตรวจสอบ
+    validationSchema: validationSchema, // Use Yup schema for validation.
     onSubmit: (values) => {
-      // แยกสตริงตาม comma แล้วตัดช่องว่าง
+      // Split string by comma and trim spaces.
       const strs = values.inputValue.split(",").map((str) => str.trim());
-      // ค้นหาคำนำร่วมที่ยาวที่สุด
+      // Find the longest common intro.
       const prefix = findLongestCommonPrefix(strs);
-      // แสดงผล (ที่นี่เราใช้ alert แต่คุณสามารถเลือกวิธีอื่นได้)
+      // Display results
       alert(
         `Longest common prefix: ${
           prefix ? prefix : "There is no common prefix among the input strings."
