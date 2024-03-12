@@ -18,7 +18,7 @@ Styling: Tailwind CSS
 Clone the project from GitHub:
 bash
 Copy code
-git clone https://github.com/yourusername/commonstringprefix.git
+git clone https://github.com/natthakrit/prefix-string.git
 
 Navigate to the project folder:
 bash
